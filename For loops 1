@@ -1,0 +1,7 @@
+vendors = ['arista','big_switch','db','cisco', 'hpe', 'juniper']
+for vendor in vendors:
+    print ("Vendor is:",vendor)
+
+word = 'routers'
+for letter in word:
+    print(letter)

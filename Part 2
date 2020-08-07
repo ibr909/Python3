@@ -1,0 +1,8 @@
+while True:
+    textin = input("Enter and integer value [type q to quit]:")
+    if textin == "q" :
+        break
+    number = int(textin)
+    if number % 2 == 0:
+        continue
+    print(number,"square is ",number*number)

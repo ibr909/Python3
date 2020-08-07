@@ -1,0 +1,5 @@
+While True:
+      textin = input("Enter and integer value [type q to quit]:")
+      if textin == "q" :
+         break
+      print(textin.lower())

@@ -1,0 +1,11 @@
+iosv_l2_s1 = {
+    'device_type': 'cisco_ios',
+    'ip':'192.168.122.1',
+    'username':'ibrahim',
+    'password':'cisco',
+    'secret':'cisco123'
+
+}
+
+for key in iosv_l2_s1:
+    print(key)

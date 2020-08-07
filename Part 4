@@ -1,0 +1,12 @@
+routers = ["R1", "R2", "R3", "R4", "R5", "R6","R7"]
+placeinlist= 0
+
+while placeinlist < len(routers):
+    print (str(placeinlist + 1)+  " "  + routers[placeinlist])
+    if routers[placeinlist] == 'R3':
+        print("Found router R3 at position :" +str(placeinlist))
+        break
+    placeinlist += 1
+else:
+    print('No router R3 found')
+    
